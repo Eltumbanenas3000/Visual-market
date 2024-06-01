@@ -1,4 +1,4 @@
-'use client'
+`&#39use client`&#34;
 import Link from "next/link";
 import React from "react";
 import Spline from '@splinetool/react-spline';
@@ -25,12 +25,10 @@ export default function Home() {
             </nav>
             
             <section className="text-center">
-            <iframe src='https://my.spline.design/humanmachinewithmousefollow-99013bf12e03666c34923deba744ab81/' frameborder='0' width='100%' height='700px'></iframe>
-        
+                <Spline scene="https://prod.spline.design/rYetTYNFZdeIS2I0/scene.splinecode" />
             </section>
-           
-            
-         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 bg-zinc-100 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-100">
+     
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 bg-zinc-100 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-100">
                 <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg">
                     <div className="flex items-center mb-4">
                         <img src="https://placehold.co/50x50" alt="Profile Picture" className="rounded-full mr-4" />
@@ -40,8 +38,8 @@ export default function Home() {
                         </div>
                     </div>
                     <h3 className="text-2xl font-bold mb-2">Hey, welcome to my site!</h3>
-                    <p>I'm a digital designer, developer, and surfer from Malibu. In the digital world, I craft interfaces and dive into coding intricacies.</p>
-                    <p className="mt-2">Beyond screens, I find solace and joy riding waves along Malibu's shores. My life blends tech and nature, coding sessions, and catching waves.</p>
+                    <p>Im a digital designer, developer, and surfer from Malibu. In the digital world, I craft interfaces and dive into coding intricacies.</p>
+                    <p className="mt-2">Beyond screens, I find solace and joy riding waves along Malibus shores. My life blends tech and nature, coding sessions, and catching waves.</p>
                 </div>
               
                 <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg text-center">
