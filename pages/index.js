@@ -106,7 +106,7 @@ export default function Home() {
               por mantener nuestros precios accesibles para satisfacer las necesidades
               y expectativas de nuestros clientes.
             </p>
-            <Link href="demo">Tinda</Link>
+            <Link href="demo">Tienda</Link>
           </article>
   
         </section>
