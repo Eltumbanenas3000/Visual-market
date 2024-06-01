@@ -1,4 +1,4 @@
-`&#39use client`&#39;
+'use client';
 import Link from "next/link";
 import React from "react";
 import Spline from '@splinetool/react-spline';
