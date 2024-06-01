@@ -1,0 +1,287 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body{
+  margin-top: 20px;
+  text-align: center;
+  font-family: sans-serif;
+
+}
+
+/* .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30;
+  background: #171717;
+  width: 100%; 
+  position: sticky;
+  top: 0%;
+} */
+
+/* .navbar {
+ display: flex;
+  margin-right: 10px;
+  position: sticky;
+  top: 20px;
+} */
+.navbar {
+  background: #171717;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  align-items: center;
+  top: 0%;
+}
+
+.Nosotros {
+  display: flex;
+  height: 69vh !important;
+  background: url(../public/bienvenido.gif) no-repeat center;
+  background-size: cover;
+  justify-content: center; 
+}
+
+.info{
+  padding: 0 0% 0%;
+
+}
+.botones{
+  padding: 50px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px  30px;
+  border: 2px solid color #000000;
+  color: #fff;
+  text-decoration: none;
+  background: #000000;
+  margin-bottom: 15px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.btn:active {
+  background-color: #3e8e41;
+}
+
+
+.logo{
+  /* margin-left: 30px;
+  margin-top: 40px;
+  width: 150px; */
+  padding: 15px;
+
+}
+
+/* .logo a {
+  text-decoration: none; 
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20;
+} */
+
+.navbar a {
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  
+}
+.navbar ul {
+  list-style-type: none;
+  padding: 30px 10px;
+
+  
+}
+.navbar li {
+  display: inline-block;
+
+}
+
+.navbar a:hover {
+  background: #3f3f3f;
+
+}
+
+.title {
+  margin-top:  0px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+p { 
+  margin-bottom: 40px;
+  font-size: 18px;
+  color: #fff
+}
+
+.contacto {
+  padding: 3%;
+}
+
+img{
+  align-content: center;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+.firstbox {
+  padding-top: 15px;
+  background-color: #1f1d1d;
+  padding: px 0; 
+  background-size: 0;
+}
+
+.box-container {
+  /* display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: baseline; */
+  justify-content: center;
+  display: flex;
+  align-self: center;
+}
+
+.box-container .box {
+  width: 200px; 
+  margin: 10px; 
+  
+}
+
+.box-container .box img {
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 1rem;
+}
+
+.box-container .box h3 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.about {
+  background: #171717;
+  background-size: cover;
+  background: #171717;
+  padding: 10vh 0;
+  
+}
+
+.precio {
+  height: 40vh !important;
+  background: url(../public/GRADIANTE.gif) no-repeat center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 50px;
+  }
+  
+.contacto {
+  padding-top: 0px;
+  background: #171717;
+  padding-bottom: 50px;
+  font-size: 100%;
+  justify-content: center;
+}
+.information {
+  display: flex;
+  /* justify-content: center; */
+
+
+}
+.titulos {
+  padding-top: 30px;
+  margin-top:  0px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+.contacto .title {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  top: 20px;
+}
+
+.form-content h2 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.form-contacto {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  
+}
+
+label {
+  font-size: 21px;
+  color: #fff;
+  text-align: start;
+  
+}
+
+input , textarea {
+  padding: 17px 14px;
+  background-color: #333646;
+  border: 0;
+  font-size: 15px;
+  color: #f4f6f9;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.focus {
+  outline: 1px solid #1e92e9;
+
+}
+
+.pie-pag {
+  padding: 40px 0;
+  background-color: #333646;
+}
+.pie-pag i {
+  padding: 0 5px;
+  color: #f9f9f9;
+}
+.mapita {
+  margin: 23px 200px;
+
+}
+.btn-enviar {
+  background-color: #3e8e41;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.btn-enviar:hover {
+  background: #000000;
+}
+
