@@ -2,16 +2,17 @@
 import Link from "next/link";
 import React from "react";
 import Spline from '@splinetool/react-spline';
+import Image from 'next/image';
 
 export default function Home() {
     return (
         <>
             <nav className="navbar">
                 <div className="logo">
-                    <img
-                        src="visual crafts banco.png"
-                        width="150"
-                        height="100"
+                    <Image
+                        src="/visual crafts banco.png"
+                        width={150}
+                        height={100}
                         alt="logo"
                     />
                 </div>
@@ -31,14 +32,14 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 bg-zinc-100 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-100">
                 <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg">
                     <div className="flex items-center mb-4">
-                        <img src="https://placehold.co/50x50" alt="Profile Picture" className="rounded-full mr-4" />
+                        <Image src="https://placehold.co/50x50" alt="Profile Picture" className="rounded-full mr-4" width={50} height={50} />
                         <div>
                             <h2 className="text-xl font-bold">Michael Andreuzza</h2>
                             <p className="text-sm">UI Design & Web developer</p>
                         </div>
                     </div>
                     <h3 className="text-2xl font-bold mb-2">Hey, welcome to my site!</h3>
-                    <p>Im a digital designer, developer, and surfer from Malibu. In the digital world, I craft interfaces and dive into coding intricacies.</p>
+                    <p>I'm a digital designer, developer, and surfer from Malibu. In the digital world, I craft interfaces and dive into coding intricacies.</p>
                     <p className="mt-2">Beyond screens, I find solace and joy riding waves along Malibu&apos;s shores. My life blends tech and nature, coding sessions, and catching waves.</p>
                 </div>
               
@@ -60,7 +61,7 @@ export default function Home() {
                 </div>
               
                 <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg">
-                    <img src="https://placehold.co/300x200" alt="Project Image" className="rounded-lg mb-4" />
+                    <Image src="https://placehold.co/300x200" alt="Project Image" className="rounded-lg mb-4" width={300} height={200} />
                     <div className="flex items-center space-x-2 mb-2">
                         <span className="bg-zinc-200 dark:bg-zinc-700 text-sm px-2 py-1 rounded">Astro</span>
                         <span className="bg-zinc-200 dark:bg-zinc-700 text-sm px-2 py-1 rounded">Tailwind CSS</span>
@@ -73,11 +74,11 @@ export default function Home() {
                     <h3 className="text-2xl font-bold mb-2">Monomod</h3>
                     <p className="mb-4">Design & development subscriptions for startups.</p>
                     <p>Monomod streamlines the design process with a fixed monthly rate and limitless design requests. Say goodbye to phone calls and extensive contracts; reach out to Monomod directly at any time. Embrace flexibility, pause or terminate your subscription whenever you need.</p>
-                    <img src="https://placehold.co/300x200" alt="Monomod Logo" className="rounded-lg mt-4" />
+                    <Image src="https://placehold.co/300x200" alt="Monomod Logo" className="rounded-lg mt-4" width={300} height={200} />
                 </div>
               
                 <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg text-center">
-                    <img src="https://placehold.co/100x100" alt="Figma Logo" className="mx-auto mb-4" />
+                    <Image src="https://placehold.co/100x100" alt="Figma Logo" className="mx-auto mb-4" width={100} height={100} />
                     <h3 className="text-xl font-bold">Figma Community</h3>
                 </div>
               
@@ -108,7 +109,7 @@ export default function Home() {
             </div>
             
             <section className="text-center py-16">
-                <img src="https://placehold.co/600x400" alt="Sneaker" className="mx-auto mb-4" />
+                <Image src="https://placehold.co/600x400" alt="Sneaker" className="mx-auto mb-4" width={600} height={400} />
                 <h1 className="text-5xl font-bold">Sneaker</h1>
                 <p className="text-xl text-zinc-500">New concept for summer</p>
             </section>
@@ -117,22 +118,22 @@ export default function Home() {
                 <h2 className="text-center text-3xl font-bold mb-8">Featured</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4">
                     <div className="text-center">
-                        <img src="https://placehold.co/200x150" alt="Product 1" className="mx-auto mb-4" />
+                        <Image src="https://placehold.co/200x150" alt="Product 1" className="mx-auto mb-4" width={200} height={150} />
                         <h3 className="font-semibold">Product 1</h3>
                         <p className="text-zinc-500">$100</p>
                     </div>
                     <div className="text-center">
-                        <img src="https://placehold.co/200x150" alt="Product 2" className="mx-auto mb-4" />
+                        <Image src="https://placehold.co/200x150" alt="Product 2" className="mx-auto mb-4" width={200} height={150} />
                         <h3 className="font-semibold">Product 2</h3>
                         <p className="text-zinc-500">$120</p>
                     </div>
                     <div className="text-center">
-                        <img src="https://placehold.co/200x150" alt="Product 3" className="mx-auto mb-4" />
+                        <Image src="https://placehold.co/200x150" alt="Product 3" className="mx-auto mb-4" width={200} height={150} />
                         <h3 className="font-semibold">Product 3</h3>
                         <p className="text-zinc-500">$90</p>
                     </div>
                     <div className="text-center">
-                        <img src="https://placehold.co/200x150" alt="Product 4" className="mx-auto mb-4" />
+                        <Image src="https://placehold.co/200x150" alt="Product 4" className="mx-auto mb-4" width={200} height={150} />
                         <h3 className="font-semibold">Product 4</h3>
                         <p className="text-zinc-500">$110</p>
                     </div>
@@ -143,22 +144,22 @@ export default function Home() {
                 <h2 className="text-center text-3xl font-bold mb-8">Best Seller</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4">
                     <div className="text-center">
-                        <img src="https://placehold.co/200x150" alt="Best Seller 1" className="mx-auto mb-4" />
+                        <Image src="https://placehold.co/200x150" alt="Best Seller 1" className="mx-auto mb-4" width={200} height={150} />
                         <h3 className="font-semibold">Best Seller 1</h3>
                         <p className="text-zinc-500">$130</p>
                     </div>
                     <div className="text-center">
-                        <img src="https://placehold.co/200x150" alt="Best Seller 2" className="mx-auto mb-4" />
+                        <Image src="https://placehold.co/200x150" alt="Best Seller 2" className="mx-auto mb-4" width={200} height={150} />
                         <h3 className="font-semibold">Best Seller 2</h3>
                         <p className="text-zinc-500">$140</p>
                     </div>
                     <div className="text-center">
-                        <img src="https://placehold.co/200x150" alt="Best Seller 3" className="mx-auto mb-4" />
+                        <Image src="https://placehold.co/200x150" alt="Best Seller 3" className="mx-auto mb-4" width={200} height={150} />
                         <h3 className="font-semibold">Best Seller 3</h3>
                         <p className="text-zinc-500">$150</p>
                     </div>
                     <div className="text-center">
-                        <img src="https://placehold.co/200x150" alt="Best Seller 4" className="mx-auto mb-4" />
+                        <Image src="https://placehold.co/200x150" alt="Best Seller 4" className="mx-auto mb-4" width={200} height={150} />
                         <h3 className="font-semibold">Best Seller 4</h3>
                         <p className="text-zinc-500">$160</p>
                     </div>
