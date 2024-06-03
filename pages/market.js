@@ -84,7 +84,7 @@ export default function Home() {
                 <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg text-center">
                     <h3 className="text-2xl font-bold mb-4">Subscribe to my newsletter</h3>
                     <form className="flex flex-col space-y-2">
-                        <input type="email" placeholder="Enter your email" className="p-2 rounded-lg border border-zinc-300 dark:border-zinc-700" />
+                        <input type="email" placeholder=Enter your email className="p-2 rounded-lg border border-zinc-300 dark:border-zinc-700" />
                         <button type="submit" className="bg-blue-500 text-white p-2 rounded-lg">Subscribe</button>
                     </form>
                 </div>
