@@ -16,7 +16,7 @@ export default function Home() {
                     />
                 </div>
                 <ul className="flex space-x-4">
-                    <li><Link href="#">Inicio</Link></li>
+                    <li><Link href="#>Inicio</Link></li>
                     <li><Link href="#nosotros">Nosotros</Link></li>
                     <li><Link href="#contacto">Contacto</Link></li>
                     <li><Link href="#productos">Productos</Link></li>
