@@ -1,7 +1,7 @@
 
 import Link from "next/link";
 import Spline from '@splinetool/react-spline';
-
+import React from "react";
 
 export default function Home() {
     return (
