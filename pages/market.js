@@ -39,7 +39,7 @@ export default function Home() {
                         </div>
                     </div>
                     <h3 className="text-2xl font-bold mb-2">Hey, welcome to my site!</h3>
-                    <p>I'm a digital designer, developer, and surfer from Malibu. In the digital world, I craft interfaces and dive into coding intricacies.</p>
+                    <p>Im a digital designer, developer, and surfer from Malibu. In the digital world, I craft interfaces and dive into coding intricacies.</p>
                     <p className="mt-2">Beyond screens, I find solace and joy riding waves along Malibu&apos;s shores. My life blends tech and nature, coding sessions, and catching waves.</p>
                 </div>
               
@@ -55,7 +55,7 @@ export default function Home() {
                 </div>
               
                 <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg text-center">
-                    <h3 className="text-3xl font-bold mb-4">Grab my résumé!</h3>
+                    <h3 className="text-3xl font-bold mb-4">Grab my </h3>
                     <p className="mb-4">Unlock the doors to explore the rich tapestry of my professional journey and accomplishments.</p>
                     <button className="bg-blue-500 text-white p-2 rounded-lg">Download my CV</button>
                 </div>
@@ -67,7 +67,7 @@ export default function Home() {
                         <span className="bg-zinc-200 dark:bg-zinc-700 text-sm px-2 py-1 rounded">Tailwind CSS</span>
                     </div>
                     <h3 className="text-2xl font-bold">Lexington</h3>
-                    <p>Pre and premium Multi-page theme and UI kits for freelancers, designers, businesses, and personal use. Beautifully crafted with Astro and Tailwind CSS — Simple & easy to customize.</p>
+                    <p>Pre and premium Multi-page theme and UI kits for freelancers, designers, businesses, and personal</p>
                 </div>
               
                 <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg">
@@ -93,12 +93,12 @@ export default function Home() {
                 <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg">
                     <h3 className="text-2xl font-bold mb-4">Testimonials</h3>
                     <blockquote className="mb-4">
-                        <p className="italic">Big fan of your themes. They&apos;re well-organized, look clean, and are fast.</p>
-                        <footer className="text-sm text-right">- Kevin Fossil, Developer</footer>
+                        <p className="italic">Big fan of your themes. They;re well-organized, look clean, and are fast.</p>
+                        <footer className="text-sm text-right"> Kevin Fossil, Developer</footer>
                     </blockquote>
                     <blockquote>
                         <p className="italic">Amazing resource using @astrotobuild and @tailwindcss! I got it a week ago and have found the contents really useful. 5/5</p>
-                        <footer className="text-sm text-right">- James, Entrepreneur</footer>
+                        <footer className="text-sm text-right"> James, Entrepreneur</footer>
                     </blockquote>
                 </div>
               
@@ -167,7 +167,7 @@ export default function Home() {
             </section>
             
             <footer className="py-8 bg-zinc-200 dark:bg-zinc-800 text-center">
-                <p className="text-zinc-500">© 2023 FLARE. All rights reserved.</p>
+                <p className="text-zinc-500"> 2023 FLARE. All rights reserved.</p>
             </footer>
         </>
     );
