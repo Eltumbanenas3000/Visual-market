@@ -56,8 +56,8 @@ export default function Home() {
                 </div>
 
                 <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300 text-center">
-                    <h3 className="text-3xl font-bold mb-4">Grab my resume!</h3>
-                    <p className="mb-4">Unlock the doors to explore the rich tapestry of my professional journey and accomplishments.</p>
+                    <h3 className="text-3xl font-bold mb-4">text</h3>
+                    <p className="mb-4">text.</p>
                     <button className="bg-blue-500 text-white p-2 rounded-lg">Download my CV</button>
                 </div>
 
@@ -68,16 +68,13 @@ export default function Home() {
                         <span className="bg-zinc-200 dark:bg-zinc-700 text-sm px-2 py-1 rounded">Tailwind CSS</span>
                     </div>
                     <h3 className="text-2xl font-bold">Lexington</h3>
-                    <p>Pre and premium Multi-page theme and UI kits for freelancers, designers, businesses, and personal use. 
-                        Beautifully crafted with Astro and Tailwind CSS — Simple & easy to customize.</p>
+                    <p>text</p>
                 </div>
 
                 <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300">
                     <h3 className="text-2xl font-bold mb-2">Monomod</h3>
                     <p className="mb-4">Design & development subscriptions for startups.</p>
-                    <p>Monomod streamlines the design process with a fixed monthly rate and limitless design requests. 
-                        Say goodbye to phone calls and extensive contracts; reach out to Monomod directly at any time. 
-                        Embrace flexibility, pause or terminate your subscription whenever you need.</p>
+                    <p>text</p>
                     <img src="https://placehold.co/300x200" alt="Monomod Logo" className="rounded-lg mt-4" />
                 </div>
 
@@ -97,18 +94,18 @@ export default function Home() {
                 <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300">
                     <h3 className="text-2xl font-bold mb-4">Testimonials</h3>
                     <blockquote className="mb-4">
-                        <p className="italic">Big fan of your themes. They are well-organized, look clean, and are fast.</p>
-                        <footer className="text-sm text-right">- Kevin Fossil, Developer</footer>
+                        <p className="italic">text.</p>
+                        <footer className="text-sm text-right">text</footer>
                     </blockquote>
                     <blockquote>
-                        <p className="italic">Amazing resource using @astrobuild and @tailwindcss! I got it a week ago and have found the contents really useful. 5/5</p>
-                        <footer className="text-sm text-right">- James, Entrepreneur</footer>
+                        <p className="italic">text</p>
+                        <footer className="text-sm text-right">text</footer>
                     </blockquote>
                 </div>
 
                 <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300">
-                    <h3 className="text-2xl font-bold mb-4">As a digital designer, my expertise lies in crafting distinctive visual identities for digital products.</h3>
-                    <p>I hold the belief that an engaging design begins with shared values, transparent communication, and a genuine respect for the audience.</p>
+                    <h3 className="text-2xl font-bold mb-4">text</h3>
+                    <p>text</p>
                 </div>
             </div>
 
@@ -121,22 +118,22 @@ export default function Home() {
             <section className="py-16 bg-zinc-100 dark:bg-zinc-800">
                 <h2 className="text-center text-3xl font-bold mb-8">Featured</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4">
-                    <div className="text-center">
+                    <div className="text-center bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300">
                         <img src="https://placehold.co/200x150" alt="Product 1" className="mx-auto mb-4" />
                         <h3 className="font-semibold">Product 1</h3>
                         <p className="text-zinc-500">$100</p>
                     </div>
-                    <div className="text-center">
+                    <div className="text-center bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300">
                         <img src="https://placehold.co/200x150" alt="Product 2" className="mx-auto mb-4" />
                         <h3 className="font-semibold">Product 2</h3>
                         <p className="text-zinc-500">$120</p>
                     </div>
-                    <div className="text-center">
+                    <div className="text-center bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300">
                         <img src="https://placehold.co/200x150" alt="Product 3" className="mx-auto mb-4" />
                         <h3 className="font-semibold">Product 3</h3>
                         <p className="text-zinc-500">$90</p>
                     </div>
-                    <div className="text-center">
+                    <div className="text-center bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300">
                         <img src="https://placehold.co/200x150" alt="Product 4" className="mx-auto mb-4" />
                         <h3 className="font-semibold">Product 4</h3>
                         <p className="text-zinc-500">$110</p>
@@ -147,22 +144,22 @@ export default function Home() {
             <section className="py-16">
                 <h2 className="text-center text-3xl font-bold mb-8">Best Seller</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4">
-                    <div className="text-center">
+                    <div className="text-center bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300">
                         <img src="https://placehold.co/200x150" alt="Best Seller 1" className="mx-auto mb-4" />
                         <h3 className="font-semibold">Best Seller 1</h3>
                         <p className="text-zinc-500">$130</p>
                     </div>
-                    <div className="text-center">
+                    <div className="text-center bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300">
                         <img src="https://placehold.co/200x150" alt="Best Seller 2" className="mx-auto mb-4" />
                         <h3 className="font-semibold">Best Seller 2</h3>
                         <p className="text-zinc-500">$140</p>
                     </div>
-                    <div className="text-center">
+                    <div className="text-center bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300">
                         <img src="https://placehold.co/200x150" alt="Best Seller 3" className="mx-auto mb-4" />
                         <h3 className="font-semibold">Best Seller 3</h3>
                         <p className="text-zinc-500">$150</p>
                     </div>
-                    <div className="text-center">
+                    <div className="text-center bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300">
                         <img src="https://placehold.co/200x150" alt="Best Seller 4" className="mx-auto mb-4" />
                         <h3 className="font-semibold">Best Seller 4</h3>
                         <p className="text-zinc-500">$160</p>
