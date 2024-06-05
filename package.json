@@ -9,17 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@auth/mongodb-adapter": "^3.1.0",
+    "@auth/mongodb-adapter": "^3.2.0",
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^1.4.7",
+    "@tabler/icons-react": "^3.5.0",
     "axios": "^1.7.2",
-    "mongodb": "^6.6.2",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.5",
+    "framer-motion": "^11.2.10",
+    "mongodb": "^6.7.0",
     "next": "14.2.3",
     "next-auth": "^4.24.7",
     "nodemailer": "^6.9.13",
     "react": "^18",
     "react-dom": "^18",
-    "react-hot-toast": "^2.4.1"
+    "react-hot-toast": "^2.4.1",
+    "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
     "eslint": "^8",
