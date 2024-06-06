@@ -1,5 +1,5 @@
 import Link from "next/link"
-
+import Image from "next/image"
 
 
 export default function Home() {
@@ -7,11 +7,11 @@ export default function Home() {
       <>
         <nav className="navbar">
           <div className="logo">
-            <img
-              src="visual crafts banco.png"
-              width="150"
-              height="100"
+            <Image
+              src="/visual crafts banco.png"
               alt="logo"
+              width={150}
+              height={100}
             />
           </div>
           <div>
@@ -41,37 +41,62 @@ export default function Home() {
             <div className="box-container">
               <div className="box">
                 <h3>Sellos</h3>
-                <img src="sellos.jpg" height="100" alt="sellos" />
+                <Image
+                  src="/sellos.jpg"
+                  width={300}
+                  height={100}
+                  alt="sellos"
+                />
                 <p>Agiliza tus tiempos</p>
               </div>
               <div className="box">
-                <h3>Letreros neon</h3>
-                <img
-                  src="lamparas.jpg"
-                  height="100"
-                  className="lampara"
+                <h3>Letreros </h3>
+                <Image
+                  src="/lamparas.jpg"
+                  width={300}
+                  height={100}
                   alt="lamparas"
                 />
                 <p>Decora tu espacio</p>
               </div>
               <div className="box">
                 <h3>Sudaderas</h3>
-                <img src="sudaderas.jpg" height="100" alt="sudaderas" />
+                <Image
+                  src="/sudaderas.jpg"
+                  width={300}
+                  height={100}
+                  alt="logo"
+                />
                 <p>Abrigate con estilo</p>
               </div>
               <div className="box">
                 <h3>Playeras</h3>
-                <img src="playeras.jpg" height="100" alt="playeras" />
+                <Image
+                  src="/playeras.jpg"
+                  width={300}
+                  height={100}
+                  alt="playeras"
+                />
                 <p>crea tu propia moda</p>
               </div>
               <div className="box">
                 <h3>Termos</h3>
-                <img src="termos.jpg" height="100" alt="termos" />
+                <Image
+                  src="/termos.jpg"
+                  width={300}
+                  height={100}
+                  alt="termos"
+                />
                 <p>Hidratate</p>
               </div>
               <div className="box">
                 <h3>Volantes</h3>
-                <img src="volantes.jpeg" height="100" alt="termos" />
+                <Image
+                  src="/volantes.jpeg"
+                  width={300}
+                  height={100}
+                  alt="volantes"
+                />
                 <p>crea un identidad visual</p>
               </div>
             </div>

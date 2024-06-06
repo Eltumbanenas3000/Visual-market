@@ -11,8 +11,8 @@ export default function Home() {
                 <div className="logo">
                     <Image
                         src="/visual crafts banco.png"
-                        width="150"
-                        height="100"
+                        width={150}
+                        height={100}
                         alt="logo"
                     />
                 </div>
@@ -34,9 +34,9 @@ export default function Home() {
                         <h2 className="text-3xl font-bold">Termos</h2>
                         <Image
                             src="/termos market.jpg"
+                            alt="termos"
                             width={400}
                             height={300}
-                            alt="termos"
                             className="rounded-lg"
                         />
                     </div>
