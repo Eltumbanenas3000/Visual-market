@@ -78,7 +78,7 @@ export default function Home() {
                   height={100}
                   alt="playeras"
                 />
-                <p>crea tu propia moda</p>
+                <p>Crea tu propia moda</p>
               </div>
               <div className="box">
                 <h3>Termos</h3>
@@ -98,7 +98,7 @@ export default function Home() {
                   height={100}
                   alt="volantes"
                 />
-                <p>crea un identidad visual</p>
+                <p>Crea un identidad visual</p>
               </div>
             </div>
           </div>

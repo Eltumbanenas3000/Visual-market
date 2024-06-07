@@ -150,9 +150,12 @@ export default function Home() {
 
             <section className="py-16 bg-zinc-900 text-zinc-200">
             
-                <h2 className="text-center text-3xl font-bold mb-8">Featured</h2>
+                <h2 className="text-center text-3xl font-bold mb-5">Sericios</h2>
+                <h3 className="text-center font-bold mb-8">Los servicio pueden variar de precio
+                dependiendo de la fase en la que se encuentre tu marca nosotros nos adaptamos para desarrollarla desde donde esté</h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4">
                     <div className="text-center bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/100 hover:m-4 transition-transform transform hover:scale-105 duration-300">
+                    <div className="flex justify-center items-center"> 
                         <Image
                             src="/chante.jpg"
                             width={400}
@@ -160,6 +163,7 @@ export default function Home() {
                             alt="termos"
                             className="rounded-lg"
                         />
+                    </div>
                         <h3 className="font-semibold">Product 1</h3>
                         <p className="text-zinc-500">$100</p>
                     </div>
@@ -176,7 +180,7 @@ export default function Home() {
                     </div>
                     <div className="text-center bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/100 hover:m-4 transition-transform transform hover:scale-105 duration-300">
                         <Image
-                            src="/playerasmarket.jpg"
+                            src="/identidadvisual.jpg"
                             width={400}
                             height={300}
                             alt="termos"
@@ -187,9 +191,9 @@ export default function Home() {
                     </div>
                     <div className="text-center bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/100 hover:m-4 transition-transform transform hover:scale-105 duration-300">
                         <Image
-                            src="/playerasmarket.jpg"
+                            src="/brandbord.jpg"
                             width={400}
-                            height={300}
+                            height={250}
                             alt="termos"
                             className="rounded-lg"
                         />
