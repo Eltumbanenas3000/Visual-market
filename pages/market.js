@@ -18,17 +18,17 @@ export default function Home() {
                 </div>
                 <ul className="flex space-x-4">
                     <li><Link href="#">Inicio</Link></li>
-                    <li><Link href="#nosotros">Nosotros</Link></li>
-                    <li><Link href="#contacto">Contacto</Link></li>
+                    <li><Link href="demo.js">iniciar sesion</Link></li>
+                    <li><Link href="index">Contacto</Link></li>
                     <li><Link href="#productos">Productos</Link></li>
-                    <li><Link href="#precio">Precio</Link></li>
+                    <li><Link href="#precio">Descuetos</Link></li>
                 </ul>
             </nav>
             <section className="text-center pt-0">
                 <Spline scene="https://prod.spline.design/rYetTYNFZdeIS2I0/scene.splinecode" />
             </section>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 bg-zinc-400 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-600 shadow">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 bg-zinc-400 dark:bg-zinc-900 text-zinc-2000 dark:text-zinc-600 shadow">
                 <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300 text-center">
                     <div className="flex flex-col items-center mb-4">
                         <h2 className="text-3xl font-bold">Termos</h2>
@@ -56,53 +56,60 @@ export default function Home() {
                 </div>
 
                 <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300 text-center">
-                    <h3 className="text-3xl font-bold mb-4">text</h3>
-                    <p className="mb-4">text.</p>
-                    <button className="bg-blue-500 text-white p-2 rounded-lg">Download my CV</button>
-                </div>
-
-                <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300">
+                    <h3 className="text-3xl font-bold mb-4">Sellos</h3>
+                    <div className="flex justify-center">
                     <Image
-                            src="/playerasmarket.jpg"
-                            width={400}
-                            height={300}
+                            src="/sellosmarket.jpg"
+                            width={355}
+                            height={50}
                             alt="termos"
                             className="rounded-lg"
                         />
-                    <div className="flex items-center space-x-2 mb-2">
-                        <span className="bg-zinc-200 dark:bg-zinc-700 text-sm px-2 py-1 rounded">Astro</span>
-                        <span className="bg-zinc-200 dark:bg-zinc-700 text-sm px-2 py-1 rounded">Tailwind CSS</span>
                     </div>
-                    <h3 className="text-2xl font-bold">Lexington</h3>
-                    <p>text</p>
                 </div>
 
                 <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300">
-                    <h3 className="text-2xl font-bold mb-2">Monomod</h3>
-                    <p className="mb-4">Design & development subscriptions for startups.</p>
-                    <p>text</p>
+                <h3 className="text-3xl font-bold ">Letreros neon</h3> 
+                        <div className="flex justify-center">
                     <Image
-                            src="/playerasmarket.jpg"
-                            width={400}
+                            src="/letrerosnmarket.jpg"
+                            width={310}
                             height={300}
                             alt="termos"
                             className="rounded-lg"
                         />
+                  
+                    </div>
+                </div>
+
+                <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300">
+                    <h3 className="text-2xl font-bold mb-2">Imprimibles</h3>
+                    <div className="flex justify-center">
+                    <Image
+                            src="/imprimibles.jpg"
+                            width={310}
+                            height={300}
+                            alt="termos"
+                            className="rounded-lg"
+                        />
+                    </div>
                 </div>
 
                 <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300 text-center">
+                <h3 className="text-2xl font-bold mb-2">Letreros de madera</h3>
+                    <div className="flex justify-center">
                 <Image
-                            src="/playerasmarket.jpg"
-                            width={400}
+                            src="/letreros.jpg"
+                            width={265}
                             height={300}
                             alt="termos"
                             className="rounded-lg"
                         />
-                    <h3 className="text-xl font-bold">Figma Community</h3>
+                    </div>
                 </div>
 
                 <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300 text-center">
-                    <h3 className="text-2xl font-bold mb-4">Subscribe to my newsletter</h3>
+                    <h3 className="text-2xl font-bold mb-4">Catalogo</h3>
                     <form className="flex flex-col space-y-2">
                         <input type="email" placeholder="Enter your email" className="p-2 rounded-lg border border-zinc-300 dark:border-zinc-700" />
                         <button type="submit" className="bg-blue-500 text-white p-2 rounded-lg">Subscribe</button>
@@ -110,33 +117,27 @@ export default function Home() {
                 </div>
 
                 <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300">
-                    <h3 className="text-2xl font-bold mb-4">Testimonials</h3>
+                    <h3 className="text-2xl font-bold mb-4">Testimonios</h3>
                     <blockquote className="mb-4">
                         <p className="italic">text.</p>
-                        <footer className="text-sm text-right">text</footer>
+                        <footer className="text-sm text-right"></footer>
                     </blockquote>
                     <blockquote>
                         <p className="italic">text</p>
-                        <footer className="text-sm text-right">text</footer>
+                        <footer className="text-sm text-right"></footer>
                     </blockquote>
                 </div>
 
                 <div className="bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300">
-                    <h3 className="text-2xl font-bold mb-4">text</h3>
+                    <h3 className="text-2xl font-bold mb-4">Provedores</h3>
                     <p>text</p>
                 </div>
             </div>
 
-            <section className="text-center py-16">
-                <Image
-                            src="/playerasmarket.jpg"
-                            width={400}
-                            height={300}
-                            alt="termos"
-                            className="rounded-lg"
-                        />
-                <h1 className="text-5xl font-bold">Sneaker</h1>
-                <p className="text-xl text-zinc-500">New concept for summer</p>
+            <section >
+            <Spline
+                scene="https://prod.spline.design/BFYxztzpBWon4nnO/scene.splinecode" 
+            />
             </section>
 
             <section className="py-16 bg-zinc-100 dark:bg-zinc-800">
@@ -144,7 +145,7 @@ export default function Home() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4">
                     <div className="text-center bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300">
                         <Image
-                            src="/playerasmarket.jpg"
+                            src="/chante.jpg"
                             width={400}
                             height={300}
                             alt="termos"
@@ -155,7 +156,7 @@ export default function Home() {
                     </div>
                     <div className="text-center bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-transform transform hover:scale-105 duration-300">
                     <Image
-                            src="/playerasmarket.jpg"
+                            src="/Branding.jpg"
                             width={400}
                             height={300}
                             alt="termos"
