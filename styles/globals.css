@@ -11,7 +11,7 @@
 }
 
 body{
-  margin-top: 20px;
+  margin-top: 0px;
   text-align: center;
   font-family: sans-serif;
 
@@ -190,11 +190,11 @@ img{
 }
 
 .precio {
-  height: 40vh !important;
+  height: 55vh !important;
   background: url(../public/GRADIANTE.gif) no-repeat center;
   background-size: cover;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 0px;
   }
   
 .contacto {
