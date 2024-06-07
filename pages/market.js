@@ -19,8 +19,8 @@ export default function Home() {
                 </div>
                 <ul className="flex space-x-4">
                     <li><Link href="#">Inicio</Link></li>
-                    <li><Link href="demo.js">iniciar sesion</Link></li>
-                    <li><Link href="index.js">Contacto</Link></li>
+                    <li><Link href="demo">iniciar sesion</Link></li>
+                    <li><Link href="/">Contacto</Link></li>
                     <li><Link href="#productos">Productos</Link></li>
                     <li><Link href="#precio">Descuetos</Link></li>
                 </ul>
