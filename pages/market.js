@@ -164,8 +164,11 @@ export default function Home() {
                             className="rounded-lg"
                         />
                     </div>
-                        <h3 className="font-semibold">Product 1</h3>
-                        <p className="text-zinc-500">$100</p>
+                    <h3 className="text-3xl font-bold mb-4 mt-4 text-white-900">Diseño de logo</h3>
+                    <p className="text-white-300">Desarrollamos el logo de tu marca a tu gusto y semejanza,Transforma tu marca con un logo único y personalizado.
+                      creamos diseños que reflejan tu esencia. 
+                    Destaca entre la multitud con un logo que realmente te represente.</p>
+
                     </div>
                     <div className="text-center bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/100 hover:m-4 transition-transform transform hover:scale-105 duration-300">
                     <Image
@@ -175,8 +178,9 @@ export default function Home() {
                             alt="termos"
                             className="rounded-lg"
                         />
-                        <h3 className="font-semibold">Product 2</h3>
-                        <p className="text-zinc-500">$120</p>
+                        <h3 className="text-3xl font-bold mb-4 mt-4 text-white-900">Branding</h3>
+                        <p className="text-white-300">Desarrollamos el aspecto visual de la marca y hacemos un estudio mercadológico para que solo tu 
+                        descanses y disfrutes como los numeros y el renombre de tu marca sube como la espuma.</p>
                     </div>
                     <div className="text-center bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/100 hover:m-4 transition-transform transform hover:scale-105 duration-300">
                         <Image
@@ -186,8 +190,9 @@ export default function Home() {
                             alt="termos"
                             className="rounded-lg"
                         />
-                        <h3 className="font-semibold">Product 3</h3>
-                        <p className="text-zinc-500">$90</p>
+                        <h3 className="text-3xl font-bold mb-4 mt-4 text-white-900">Identidad visual</h3>
+                        <p className="text-white-300">Desarrollamos el aspecto visual de tu marca para que enamores a tu mercado primero por los ojos, 
+                        creamos visuales de calidad para que tu marca no pierdad la esencia</p>
                     </div>
                     <div className="text-center bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/100 hover:m-4 transition-transform transform hover:scale-105 duration-300">
                         <Image
@@ -197,14 +202,33 @@ export default function Home() {
                             alt="termos"
                             className="rounded-lg"
                         />
-                        <h3 className="font-semibold">Product 4</h3>
-                        <p className="text-zinc-500">$110</p>
+                        <h3 className="text-3xl font-bold mb-4 mt-4 text-white-900">Brandbord</h3>
+                        <p className="text-white-300">El brandbord te ayuda a que tu marca tenga una plantilla estable y como fuente de recuersos para 
+                        tus posts </p>
                     </div>
                 </div>
             </section>
 
-            <footer className="py-8 bg-zinc-800 text-center">
-                <p className="text-zinc-500">© 2023 FLARE. All rights reserved.</p>
+            <footer className="py-10 bg-zinc-800 text-center">
+                <div className="border-t border-zinc-700 mt-4 mb-6 pt-4 flex justify-center">
+                    <div className="flex space-x-4">
+                        <Link href="https://www.facebook.com/?locale=es_LA" passHref>
+                            
+                                <Image alt="Facebook" src="/facebook.png" width={40} height={40} />
+                            
+                        </Link>
+                        <Link href="https://github.com/Eltumbanenas3000" passHref>
+                            
+                                <Image alt="Github" src="/github.png" width={40} height={40} />
+                            
+                        </Link>
+                        <Link href="https://www.instagram.com/visual._.crafts_?igsh=cmtubDdlNnV0MDk%3D&utm_source=qr" passHref>
+                            
+                                <Image alt="instagram" src="/instagram.png" width={40} height={40} />
+                            
+                        </Link>
+                    </div>
+                </div>
             </footer>
         </>
     );

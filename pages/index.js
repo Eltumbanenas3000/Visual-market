@@ -177,12 +177,28 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <footer className="pie-pag">
-          <a href="https://www.facebook.com/profile.php?id=61555967793962" target="_blank"><i className="fa-brands fa-facebook fa-2xl"></i></a>
-          <a href="https://www.instagram.com/visual..crafts?igsh=cmtubDdlNnV0MDk%3D&utm_source=qr" target="_blank"><i className="fa-brands fa-instagram fa-2xl"></i></a>
-          <a href="https://github.com/Eltumbanenas3000" target="_blank"><i className="fa-brands fa-github fa-2xl"></i></a>
-          <a href="https://wa.me/526142708963" target="_blank"><i className="fa-brands fa-whatsapp fa-2xl"></i></a>
-        </footer>
+
+        <footer className="py-10 bg-zinc-800 text-center">
+                <div className="border-t border-zinc-700 mt-4 mb-6 pt-4 flex justify-center">
+                    <div className="flex space-x-4">
+                        <Link href="https://www.facebook.com/?locale=es_LA" passHref>
+                            
+                                <Image alt="Facebook" src="/facebook.png" width={40} height={40} />
+                            
+                        </Link>
+                        <Link href="https://github.com/Eltumbanenas3000" passHref>
+                            
+                                <Image alt="Github" src="/github.png" width={40} height={40} />
+                            
+                        </Link>
+                        <Link href="https://www.instagram.com/visual._.crafts_?igsh=cmtubDdlNnV0MDk%3D&utm_source=qr" passHref>
+                            
+                                <Image alt="instagram" src="/instagram.png" width={40} height={40} />
+                            
+                        </Link>
+                    </div>
+                </div>
+            </footer>
       </>
     );
   }
