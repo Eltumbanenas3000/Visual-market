@@ -137,7 +137,7 @@ export default function Home() {
                 </div>
 
                 <div className="bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/100 hover:m-4 transition-transform transform hover:scale-105 duration-300">
-                    <h3 className="text-2xl font-bold mb-4">Provedores</h3>
+                    <h3 className="text-2xl font-bold mb-4">Proveedores</h3>
                     <p>text</p>
                 </div>
             </div>
@@ -172,7 +172,7 @@ export default function Home() {
                     </div>
                     <div className="text-center bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/100 hover:m-4 transition-transform transform hover:scale-105 duration-300">
                     <Image
-                            src="/Branding.jpg"
+                            src="/branding.jpg"
                             width={400}
                             height={300}
                             alt="termos"
