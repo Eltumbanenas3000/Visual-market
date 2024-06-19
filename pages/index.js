@@ -78,7 +78,9 @@ export default function Home() {
           <div className="text-center py-4" id="precio">
             <h1 className="text-3xl font-bold">PRECIO</h1>
             <p className="mt-4 px-4">En Visual Craft, nos enorgullece ofrecer productos personalizados de alta calidad a precios accesibles y asequibles. Creemos que todos deberían tener acceso a artículos únicos y exclusivos que reflejen su estilo, sin comprometer el bolsillo. Además, nos esforzamos por mantener nuestros precios justos y transparentes, para que siempre sepas exactamente lo que estás pagando.</p>
+            <Link href="/market" passHref>
             <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors duration-300">Tienda</button>
+            </Link>
           </div>
           </div>
           <div className="text-center py-4" id="contacto">
@@ -118,7 +120,7 @@ export default function Home() {
       <footer className="py-10 bg-zinc-800 text-center">
         <div className="container mx-auto border-t border-zinc-700 mt-4 mb-6 pt-4 flex justify-center">
           <div className="flex space-x-4">
-            <Link href="https://www.facebook.com/?locale=es_LA" passHref>
+            <Link href="https://www.facebook.com/profile.php?id=61555967793962" passHref>
               <Image alt="Facebook" src="/facebook.png" width={40} height={40} />
             </Link>
             <Link href="https://github.com/Eltumbanenas3000" passHref>
