@@ -23,7 +23,7 @@ export default function Home() {
                 </Link>
               </li>
               <li>
-              <li><Link href="demo">iniciar sesion</Link></li>
+              <Link href="demo">iniciar sesion</Link>
               </li>
               <li>
                 <Link href="#contacto">
