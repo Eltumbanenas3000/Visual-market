@@ -212,7 +212,7 @@ export default function Home() {
             <footer className="py-10 bg-zinc-800 text-center">
                 <div className="border-t border-zinc-700 mt-4 mb-6 pt-4 flex justify-center">
                     <div className="flex space-x-4">
-                        <Link href="https://www.facebook.com/?locale=es_LA" passHref>
+                        <Link href="https://www.facebook.com/profile.php?id=61555967793962" passHref>
                             
                                 <Image alt="Facebook" src="/facebook.png" width={40} height={40} />
                             
