@@ -1,4 +1,4 @@
-import transporter from "@/libs/nodemailer";
+import transporter from "../../libs/nodemailer";
 
 export default async function handler(req, res) {
     const { name, email, message } = req.body;
