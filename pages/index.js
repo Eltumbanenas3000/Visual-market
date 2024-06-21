@@ -94,7 +94,7 @@ export default function Home() {
                 allowFullScreen="" 
                 loading="lazy"
               ></iframe>
-              <form className="mt-2 max-w-md w-full">
+              <form className="mt-2 max-w-md w-full" action="https://formsubmit.co/b796c75fa0ec59a21ac83cc199300835" method="POST">
                 <div className="mb-4">
                   <label className="block text-left" htmlFor="name">Nombre</label>
                   <input className="w-full p-2 border border-zinc-300 rounded-lg" type="text" id="name" name="name" />

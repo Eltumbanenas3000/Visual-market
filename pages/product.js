@@ -26,9 +26,9 @@ export default function Widget() {
                 <header className="flex justify-between items-center py-4">
                     <h1 className="text-2xl font-bold">module</h1>
                     <nav>
-                        <a href="#" className="text-zinc-600 dark:text-zinc-300 mx-2">Shop</a>
-                        <a href="#" className="text-zinc-600 dark:text-zinc-300 mx-2">About</a>
-                        <a href="#" className="text-zinc-600 dark:text-zinc-300 mx-2">Contact</a>
+                        <Link href="#" className="text-zinc-600 dark:text-zinc-300 mx-2">Shop</Link>
+                        <Link href="#" className="text-zinc-600 dark:text-zinc-300 mx-2">About</Link>
+                        <Link href="#" className="text-zinc-600 dark:text-zinc-300 mx-2">Contact</Link>
                     </nav>
                 </header>
                 <main className="max-w-7xl mx-auto">
@@ -114,9 +114,9 @@ export default function Widget() {
                 </main>
                 <footer className="mt-12 py-8 text-center text-zinc-600 dark:text-zinc-400">
                     <div className="flex justify-center space-x-4">
-                        <a href="#" className="hover:underline">Terms</a>
-                        <a href="#" className="hover:underline">Privacy</a>
-                        <a href="#" className="hover:underline">Contact</a>
+                        <Link href="#" className="hover:underline">Terms</Link>
+                        <Link href="#" className="hover:underline">Privacy</Link>
+                        <Link href="#" className="hover:underline">Contact</Link>
                     </div>
                     <p className="mt-4">&copy; 2023 module. All rights reserved.</p>
                 </footer>
