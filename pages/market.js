@@ -32,7 +32,7 @@ export default function Home() {
             <section>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 bg-zinc-950 dark:bg-zinc-900 text-zinc-200 shadow">
             <Link href="/bottles">
-                <div className="bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/100 hover:m-4 transition-transform transform hover:scale-105 duration-300 text-center cursor-pointer">
+                <div className="bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/100 hover:m-4 transition-transform transform hover:scale-20 duration-300 text-center cursor-pointer">
                     <div className="flex flex-col items-center mb-4">
                         <h2 className="text-3xl font-bold mb-4">Termos</h2>
                         <Image
@@ -46,7 +46,7 @@ export default function Home() {
                 </div>
             </Link>
             <Link href="/bottles">
-            <div className="bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/100 hover:m-4 transition-transform transform hover:scale-105 duration-300 text-center">
+            <div className="bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/100 hover:m-4 transition-transform transform hover:scale-20 duration-300 text-center">
            
                     <h3 className="text-3xl font-bold mb-4">Playeras</h3>
                     <div className="flex justify-center space-x-2">
@@ -61,7 +61,7 @@ export default function Home() {
                 </div>
             </Link>
             <Link href="/bottles">
-                <div className="bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/100 hover:m-4 transition-transform transform hover:scale-105 duration-300 text-center">
+                <div className="bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/100 hover:m-4 transition-transform transform hover:scale-20 duration-300 text-center">
                     <h3 className="text-3xl font-bold mb-4">Sellos</h3>
                     <div className="flex justify-center">
                     <Image
@@ -75,7 +75,7 @@ export default function Home() {
                 </div>
             </Link>
             <Link href="/bottles">
-                <div className="bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/100 hover:m-4 transition-transform transform hover:scale-105 duration-300">
+                <div className="bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/100 hover:m-4 transition-transform transform hover:scale-20 duration-300">
                 <h3 className="text-3xl font-bold ">Letreros neon</h3> 
                         <div className="flex justify-center">
                     <Image
@@ -89,7 +89,7 @@ export default function Home() {
                 </div>
             </Link>
                 <Link href="/bottles">
-                <div className="bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/100 hover:m-4 transition-transform transform hover:scale-105 duration-300">
+                <div className="bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/100 hover:m-4 transition-transform transform hover:scale-20 duration-300">
                     <h3 className="text-2xl font-bold mb-2">Imprimibles</h3>
                     <div className="flex justify-center">
                     <Image
@@ -103,7 +103,7 @@ export default function Home() {
                 </div>
                 </Link>
                 <Link href="/bottles">
-                <div className="bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/100 hover:m-4 transition-transform transform hover:scale-105 duration-300 text-center">
+                <div className="bg-zinc-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/100 hover:m-4 transition-transform transform hover:scale-20 duration-300 text-center">
                 <h3 className="text-2xl font-bold mb-2">Letreros de madera</h3>
                     <div className="flex justify-center">
                 <Image
