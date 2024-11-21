@@ -3,8 +3,7 @@ import GithubProvider from "next-auth/providers/github";
 import GoogleProvider from "next-auth/providers/google";
 import DiscordProvider from "next-auth/providers/discord";
 
-// Configuración de proveedores de autenticación
-const handler = NextAuth({
+export default NextAuth({
   providers: [
     GithubProvider({
       clientId: process.env.GITHUB_ID,
@@ -20,8 +19,5 @@ const handler = NextAuth({
     }),
   ],
   secret: process.env.NEXTAUTH_SECRET,
-  debug: true, // Activamos el modo de depuración
+  debug: true, // Activamos el modo de depuración para ayudar a diagnosticar problemas
 });
-
-export { handler as GET, handler as POST };
-export default handler;
