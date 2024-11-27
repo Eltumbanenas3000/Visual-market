@@ -37,7 +37,7 @@ export default function Home() {
         </div>
       </nav>
       <header className="Nosotros"></header>
-      <section className="info bg-zinc-900 text-white py-8" id="productos">
+      <section className="info bg-zinc-800 text-white py-8" id="productos">
         <div className="container mx-auto">
           <div className="text-center py-4">
             <h1 className="text-3xl font-bold">PRODUCTOS</h1>
