@@ -6,8 +6,8 @@ import DiscordProvider from "next-auth/providers/discord";
 export default NextAuth({
   providers: [
       GitHubProvider({
-        clientId: process.env.GITHUB_ID as string,
-        clientSecret: process.env.GITHUB_SECRET as string,
+        clientId: process.env.GITHUB_ID,
+        clientSecret: process.env.GITHUB_SECRET,
       }),
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID,
